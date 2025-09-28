@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+     <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon_io (1)/apple-touch-icon.png">
+  <link rel="icon" href="./assets/img/favicon_io (1)/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./assets/img/favicon_io (1)/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="shortcut icon" href="./assets/img/favicon_io (1)/favicon-16x16.png" type="image/x-icon">
+    <title>GradeTrack</title>
+
+    <style>
+
+  .hero-section,
+  .hero-section .carousel,
+  .hero-section .carousel-inner,
+  .hero-section .carousel-item,
+  .hero-section img {
+    height: 100vh !important;
+  }
+
+  .hero-section img {
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+<div class="container-fluid p-0 position-relative hero-section overflow-hidden">
+
+
+<nav class="navbar navbar-expand-lg position-absolute w-100 z-3">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold" href="#">GradeTrack</a>
+
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+      <div class="d-flex flex-column flex-lg-row">
+        <a href="./pages/login.html" class="btn btn-outline-light me-lg-2 mb-2 mb-lg-0">Login</a>
+        <a href="./pages/signup.html" class="btn btn-primary">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/students.jpg" class="d-block w-100" alt="Students">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/phone.jpg" class="d-block w-100" alt="Phone">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/graduates.jpg" class="d-block w-100" alt="Graduates">
+      </div>
+    </div>
+  </div>
+
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+
+  <div class="position-absolute top-50 start-50 translate-middle text-center text-white z-3 px-3">
+    <h1 class="fw-bold display-5 display-md-4">
+      Your Academic Journey <br> Begins Here!
+    </h1>
+    <p class="lead">Track your GPA and achieve your goals with GradeTrack</p>
+    <a href="./pages/signup.html" class="btn btn-primary btn-lg mt-3">Get Started</a>
+  </div>
+</div>
+
+    <script src="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>   
+</body>
+</html>
