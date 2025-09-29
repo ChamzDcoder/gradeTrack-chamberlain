@@ -8,6 +8,9 @@ Primary Users: Student (user of the app)
 Stakeholders and Interests:
 Student: Wants to track academic performance, calculate cumulative GPA, and view semester results.
 University/College: Indirectly benefits when students monitor performance and plan better academically.
+Login Details: 
+Email: mbrelolomari@gmail.com
+password: Gidiboy02
 
 Preconditions:
 Student has signed up and logged into GradeTrack.
