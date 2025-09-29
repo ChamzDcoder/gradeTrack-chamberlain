@@ -80,4 +80,8 @@ Fork the repository.
 Create a branch: git checkout -b feature/your-feature.
 Commit changes: git commit -m 'Add new feature'.
 Push to branch: git push origin feature/your-feature.
+<<<<<<< HEAD
 Submit a pull request.
+=======
+Submit a pull request.
+>>>>>>> 5691e27 (update changes)
